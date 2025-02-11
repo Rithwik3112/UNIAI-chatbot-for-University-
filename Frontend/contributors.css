@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 800;
+}
+
+body{
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.536); 
+    backdrop-filter: blur(10px); 
+    z-index: 1000;
+    margin-top: 10px;
+    padding: 0 90px; 
+    position: sticky;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-left: 150px;
+}
+
+nav .logo .logo-img {
+    width: 60px;  
+    height: auto;
+    margin-right: 0px;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    margin-left: 40px;
+}
+
+nav .navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav .navbar a:hover {
+    color: #faaeae;
+    transition: 0.3s ease;
+}
+
+.button-container {
+    display: flex; 
+    gap: 10px; 
+    margin-right: 170px;
+}
+nav a button {
+    background-color: #f0decd;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 35px;
+}
+
+nav a button:hover {
+    background-color: #f5bc84;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+
+
+.team-section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.team-section h1 {
+    font-size: 34px;
+    margin-bottom: 1em;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.team-member {
+    background-color: #111010;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(145, 140, 138, 0.796);
+    max-width: 400px;
+    text-align: center;
+}
+
+
+.team-member img {
+    border-radius: 50%;
+    width: 190px;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.team-member p {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    
+}

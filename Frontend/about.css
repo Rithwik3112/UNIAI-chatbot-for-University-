@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 800;
+}
+
+body{
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.536); 
+    backdrop-filter: blur(10px); 
+    z-index: 1000;
+    margin-top: 10px;
+    padding: 0 90px; 
+    position: sticky;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-left: 150px;
+}
+
+nav .logo .logo-img {
+    width: 60px;  
+    height: auto;
+    margin-right: 0px;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    margin-left: 40px;
+}
+
+nav .navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav .navbar a:hover {
+    color: #faaeae;
+    transition: 0.3s ease;
+}
+
+.button-container {
+    display: flex; 
+    gap: 10px; 
+    margin-right: 170px;
+}
+nav a button {
+    background-color: #f0decd;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 35px;
+}
+
+nav a button:hover {
+    background-color: #f5bc84;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+
+.name{
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.name img{
+    width: 150px;
+    height: auto;
+}
+
+.name h1{
+    font-size: 100px;
+    font-weight: 800;
+    font-family: 'Montserrat';
+}
+
+.about {
+    margin-top: 80px;
+    text-align: justify;
+    margin-left: 350px;
+    color: #fff;
+    width: 1000px;
+    margin-bottom: 50px;
+}
+
+.about p{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.about h2{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+
